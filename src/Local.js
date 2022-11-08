@@ -3,3 +3,5 @@ function Local(){
         return "Paquete creado";
     }
 }
+
+module.exports=Local;

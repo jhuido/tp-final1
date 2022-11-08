@@ -1,4 +1,5 @@
 const Proceso=require('../src/Proceso.js');
+const Local=require('../src/Local.js');
 
 test("Obtener primer proceso",()=>{
     var proceso=new Proceso(["Cola de salida"]);
