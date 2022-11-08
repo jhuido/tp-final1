@@ -4,7 +4,7 @@ function Local(){
 
     this.generarPaquete=function(){
         var paquete=new Paquete();
-        return "Paquete creado";
+        return paquete
     }
 }
 

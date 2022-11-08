@@ -12,10 +12,7 @@ test("Agregar ubicaciones del proceso",()=>{
     expect(proceso.proceso[1].nombre).toBe("Centro de facturación");
 })
 
-test("Local genere paquete",()=>{
-    var local=new Local();
-    expect(local.generarPaquete()).toBe("Paquete creado");
-})
+
 
 test("Paquete comience en tiempo 0",()=>{
     var local=new Local();
