@@ -1,0 +1,3 @@
+1) cuando se el local genera paquete
+    Paso de hacer que el devuelva "paquete creado"
+    a que cree un objeto "Paquete" y recien devuelva "paquete creado"

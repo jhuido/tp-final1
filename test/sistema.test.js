@@ -16,3 +16,9 @@ test("Local genere paquete",()=>{
     var local=new Local();
     expect(local.generarPaquete()).toBe("Paquete creado");
 })
+
+test("Paquete comience en tiempo 0",()=>{
+    var local=new Local();
+    var paquete=local.generarPaquete();
+    expect(paquete.tiempo).toBe(0);
+})
